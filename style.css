@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: repeating-linear-gradient(135deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),repeating-linear-gradient(22.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),linear-gradient(90deg, hsl(194,74%,56%),hsl(266,74%,56%),hsl(338,74%,56%),hsl(50,74%,56%),hsl(122,74%,56%));
+}
+
+.box{
+    width: 900px;
+    border: 1px solid white;
+    display: flex;
+    margin: 220px auto;
+   justify-content: center;
+   padding: 20px;
+  
+ 
+}
+.pic1{
+    width: 250px;
+    margin: 0px 30px 0px 0px;
+    position: relative;  
+    transition: 0.5s;
+}
+.pic1 img{
+    width: 100%;
+    cursor: pointer;
+   
+}
+.pic1:hover{
+    transform: scale(1.2);
+}
+.pic2{
+    width: 250px;
+    margin: 0px 30px 0px 0px;
+    position: relative;
+    transition: 0.5s;
+}
+.pic2 img{
+    width: 100%;
+    cursor: pointer;
+   
+}
+.pic2:hover{
+    transform: scale(1.2);
+}
+.pic3{
+    width: 250px;
+    position: relative;
+    transition: 0.5s;
+}
+.pic3 img{
+    width: 100%;
+    cursor: pointer;
+   
+}
+.pic3:hover{
+    transform: scale(1.2);
+}
+
+h2{
+    color: white;
+    position: absolute;
+    background-color: rgba(148, 146, 146,0.6);
+    width: 250px;
+    bottom: 4px;
+    text-align: center;
+    padding: 4px 0px;
+    display: none;
+    transition: 0.6s;
+}
+.pic1:hover h2{
+    display: block;
+}
+.pic2:hover h2{
+    display: block;
+}
+.pic3:hover h2{
+    display: block;
+    
+}
+
